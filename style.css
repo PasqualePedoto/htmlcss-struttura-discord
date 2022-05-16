@@ -21,6 +21,11 @@
     margin-top: 80px;
 }
 
+header{
+    height: 500px;
+    margin-top: 20px;
+}
+
 /* CONTENITORE FLEX */
 
 .flex-container{
@@ -33,10 +38,10 @@
     justify-content: space-evenly;
 }
 
-header{
-    min-height: 500px;
-    margin-top: 20px;
+.content-between{
+    justify-content: space-between;
 }
+
 
 /* SETTING UL E LI */
 
@@ -47,6 +52,7 @@ ul{
 li{
     display: inline;
     margin:0 10px;
+    color: white;
 }
 
 a{
@@ -79,4 +85,26 @@ a{
 
 p{
     margin-top: 30px;
+}
+
+.white-text{
+    color: white;
+}
+
+/* Flex container annidato */
+
+.language{
+    width: calc(100% / 3);
+    min-height: 300px;
+    color: #5C6EA9;
+}
+
+.link{
+    width: calc(100% / 3 * 2);
+    color: #5C6EA9;
+    min-height: 600px;
+}
+
+.grey-section{
+    background-color: #F6F6F6;
 }
